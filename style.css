@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron .img-fluid {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.accordion .card-header {
+  padding: 0.75rem 1.25rem;
+}
+
+.accordion .btn-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+#contactForm {
+  max-width: 500px;
+  margin: 0 auto;
+}
